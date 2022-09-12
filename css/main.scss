@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  background: #b9e7e6;
+  margin: 0;
+  font-family: 'Poppins';
+  box-sizing: border-box;
+}
+
+.navbar {
+    background: #111827;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    
+    li, a{
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+
+    }
+
+    .logo{
+        text-decoration: none;
+        cursor: auto;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        font-size: 1.2em;
+
+        span {
+                color: #39c9e2;
+             }
+    } 
+    
+    nav li{
+        display: inline-block;
+        padding: 0px 20px;
+
+        a{
+            transition: all 0.3s ease 0s;
+        }
+
+        a:hover{
+            color: #39c9e2;
+        }
+    }
+
+    .admin{
+        border: none;
+        border-radius: 50px;
+        padding: 9px 25px;
+        background-color:#39e2e2;
+        transition: all 0.3s ease 0s;
+        color: #111827;
+    }
+
+    .admin:hover{
+        color: #fbfeff;
+    }
+  }
+
+  .hero{
+    padding: 200px;
+    height: 350px;
+    background: url("../image/harli-marten-n7a2OJDSZns-unsplash.jpg");
+    p{
+        text-align: center;
+        margin-top: 175px;
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(13, 50, 71);
+    }
+  }
+
+  .about{
+    h3{
+        text-align: center;
+        color: black;
+    }
+    .col{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .row{
+            flex: 1 1 250px;
+            img{
+                width: 350px;
+                height: 350px;
+                margin: 0 0 60px 80px;
+                -o-object-fit: cover;
+                object-fit: cover;
+                border-radius: 20px;
+            }
+            p{
+                margin-top: 50px;
+            }
+        }
+    }
+  }
+
+  .footer {
+    text-align: center;
+    background-color: white;
+    padding: 1em 1em;
+
+    .logo {
+        text-decoration: none;
+        cursor: auto;
+        font-weight: bold;
+        color: black;
+        font-size: 1.2em;
+
+        span {
+            color: #2ed6f3;
+          }
+      }
+  }
+  

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8656ada1c2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/company_postvacancy.css">
+    <title>Campus Recruitment</title>
+</head>
+<body>
+    <section id="menu">
+        <div class="logo">
+            <a  class="logo-cta" href="#">Campus<span>Recruitment</span></a>
+        </div>
+
+        <div class="items">
+            <li><i class="fa-solid fa-table-columns"></i><a href="#">Dashboard</a></li>
+            <li><i class="fa-solid fa-user"></i><a href="#">Profile</a></li>
+            <li><i class="fa-solid fa-signs-post"></i><a href="#">Post Vacancy</a></li>
+            <li><i class="fa-solid fa-envelopes-bulk"></i><a href="#">Job Application</a></li>
+            <li><i class="fa-brands fa-readme"></i><a href="#">Reports</a></li>
+            <li><i class="fa-solid fa-arrow-right-from-bracket"></i><a href="#">Logout</a></li>
+        </div>
+    </section>
+
+    <section id="interface">
+        <div class="navigation">
+            <div class="n1">
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+
+            <div class="profile">
+                <i class="far fa-bell"></i>
+                <img src="../image/company.png" alt="">
+            </div>
+        </div>
+        <div class="hero">
+            <form action="">
+                <div class="row">
+                    <div class="input-group">
+                        <input type="text" id="title" required>
+                        <label for="title"><i class="fa-brands fa-cuttlefish"></i>  Job Title</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="vacancy" required>
+                        <label for="vacancy"><i class="fa-solid fa-file"></i>  Vacancy</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="input-group">
+                        <input type="text" id="salary" required>
+                        <label for="salary"><i class="fa-solid fa-money-check-dollar"></i>  Salary</label>
+                    </div>
+                    
+                    <div class="input-group">
+                        <input type="text" id="address" required>
+                        <label for="address"><i class="fa-solid fa-address-book"></i>  Address</label>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="requirement" required>
+                    <label for="requirement"><i class="fa-solid fa-book"></i> Requirement</label>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="8" required></textarea>
+                    <label for="message"><i class="fa-solid fa-circle-info"></i>  Job Responsibility</label>
+                </div>
+                <button type="submit">SUBMIT<i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+
+        <div class="board">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Job title</td>
+                        <td>Vacancy</td>
+                        <td>Details</td>
+                        <td>Action</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="ads">
+                            <div class="ads-de">
+                                <h5>Senior engineer</h5>
+                            </div>
+                        </td>
+
+                        <td class="ads-des">
+                            <h5>5</h5>
+                        </td>
+
+                        <td class="active">
+                            <p><a href="#">More</a></p>
+                        </td>
+
+                        <td class="edit">
+                            <a href="#">Update</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+</html>

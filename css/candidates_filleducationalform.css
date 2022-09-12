@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  background: #E5E7EB;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+a.logo-cta {
+  text-decoration: none;
+  cursor: auto;
+  font-weight: bold;
+  color: #faf6f6;
+  font-size: 1em;
+  margin: 10px 0 0 34px;
+}
+
+a.logo-cta span {
+  color: #2ed6f3;
+}
+
+#menu {
+  background: #111827;
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#menu .logo {
+  padding: 50px 0 0 0;
+}
+
+#menu .items {
+  margin-top: 40px;
+}
+
+#menu .items li {
+  list-style: none;
+  padding: 15px 0;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#menu .items li i {
+  color: #7c7c7c;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  font-size: 14px;
+  margin: 0 10px 0 25px;
+}
+
+#menu .items li a {
+  text-decoration: none;
+  color: #868d97;
+  font-weight: 300px;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#menu .items li:hover {
+  background: #253047;
+  cursor: pointer;
+}
+
+#menu .items li:nth-child(3) {
+  border-left: 4px solid #fff;
+}
+
+#menu .items li:hover i, #menu .items li:hover a {
+  color: #f3f4f6;
+}
+
+#interface {
+  width: calc(100% - 300px);
+  margin-left: 300px;
+  position: relative;
+}
+
+#interface .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: #fff;
+  padding: 15px 30px;
+  border-bottom: 3px solid #594ef7;
+  position: fixed;
+  width: calc(100% - 300px);
+}
+
+#interface .navigation .search {
+  color: green;
+}
+
+#interface .navigation .profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+#interface .navigation .profile i {
+  margin-right: 20px;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+#interface .navigation .profile img {
+  width: 30px;
+  height: 30px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.i-name {
+  color: #444a53;
+  padding: 30px 30px 0 30px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 70px;
+}
+
+.board, .board1 {
+  width: 95%;
+  margin: 30px 0 30px 30px;
+  overflow: auto;
+  background: #fff;
+  border-radius: 8px;
+}
+
+.board h5 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.board p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #787d8d;
+}
+
+table {
+  border-collapse: separate;
+}
+
+tr {
+  border-bottom: 1px solid #eef0f3;
+}
+
+thead td {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400;
+  background: #f9fafb;
+  text-align: start;
+  padding: 15px;
+}
+
+tbody tr td {
+  padding: 10px 15px;
+}
+
+.edit a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #554cd1;
+  font-weight: 600;
+}
+
+select {
+  color: #363c44;
+  border: 1px solid;
+}
+
+input {
+  color: #363c44;
+  border: 1px solid;
+}
+
+form .sign-in {
+  width: 10%;
+  height: 35px;
+  border: 1px solid;
+  background: #3f5b97;
+  border-radius: 10px;
+  font-size: 10px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 84%;
+}
+
+form .sign-in:hover {
+  border-color: #2691d9;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.board1 h5 {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.board1 p {
+  font-weight: 400;
+  font-size: 13px;
+  color: #787d8d;
+}
+
+.board1 .people {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: start;
+}
+
+.board1 .sign-in {
+  width: 30%;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #437fa5;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 84%;
+  text-decoration: none;
+}
+/*# sourceMappingURL=candidates_filleducationalform.css.map */
